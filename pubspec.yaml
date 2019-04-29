@@ -1,6 +1,6 @@
 name: flutter_taobao
-description: A new Flutter plugin for taobao
-version: 0.0.2
+description: 主要包括三个功能：淘宝登录(可以获取openId， 头像和昵称等),淘宝授权(可以获取code)和打开淘宝商品详情。
+version: 0.0.3
 author: zhangliucheng<414616504@qq.com>
 homepage: https://bestcircler.com
 
