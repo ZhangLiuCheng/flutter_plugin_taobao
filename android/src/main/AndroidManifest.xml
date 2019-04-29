@@ -3,4 +3,15 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <application>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.boiling.point.plugin.flutter_taobao.AuthActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+    </application>
 </manifest>
