@@ -43,7 +43,7 @@ android {
         debug {
             keyAlias 'coupon'
             keyPassword 'zhang123'
-            storeFile file('/Users/admin/zhangliucheng/workspace/androidStudio/flutter_taobao/example/android/app/coupon.jks')
+            storeFile file('./coupon.jks')
             storePassword 'zhang123'
         }
     }
