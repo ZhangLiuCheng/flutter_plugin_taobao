@@ -67,3 +67,6 @@ post_install do |installer|
     end
   end
 end
+
+source 'http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git'
+pod 'AlibcTradeSDK'
