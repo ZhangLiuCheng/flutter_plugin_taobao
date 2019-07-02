@@ -14,10 +14,10 @@
 ## 使用
 
     1.登录
-        FlutterTaobao.taobaoLogin().then((result) {}).catchError((err1) {});
+        FlutterTaobao.taobaoLogin().then((result) {}).catchError((err) {});
 
     2.授权
-        FlutterTaobao.taobaoAuth().then((result) {}).catchError((err1) {});
+        FlutterTaobao.taobaoAuth().then((result) {}).catchError((err) {});
 
     3.商品详情
          FlutterTaobao.taobaoOpenUrl("url");

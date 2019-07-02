@@ -151,9 +151,6 @@ public class FlutterTaobaoPlugin implements MethodCallHandler {
                 loginResult.put("nick", session.nick);
                 loginResult.put("openId", session.openId);
                 loginResult.put("openSid", session.openSid);
-                Log.e("TAG", "登录成功" + session.nick);
-                Toast.makeText(activity, "登录成功 ", Toast.LENGTH_LONG).show();
-
                 result.success(loginResult);
             }
 
