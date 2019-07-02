@@ -2,10 +2,8 @@ package com.boiling.point.plugin.flutter_taobao;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Handler;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.ali.auth.third.core.model.Session;
 import com.ali.auth.third.ui.context.CallbackContext;
@@ -21,8 +19,6 @@ import com.alibaba.baichuan.android.trade.model.TradeResult;
 import com.alibaba.baichuan.android.trade.page.AlibcBasePage;
 import com.alibaba.baichuan.android.trade.page.AlibcPage;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
